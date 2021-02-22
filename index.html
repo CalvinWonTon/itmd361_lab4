@@ -22,9 +22,9 @@
                     <label>Email Address: <input type="text" name="email_field" placeholder="Email Address"></label>
                 </div>
                 <div>
-                    <label>Gender: <input type="radio" name="gender_field" value="Male">Male
-                        <input type="radio" name="gender_field" value="Female">Female
-                        <input type="radio" name="gender_field" value="Prefer Not To Answer">Prefer Not To Answer</label>
+                    <label>Gender: <input type="radio" name="gender_field" value="Male">Male</label>
+                    <label><input type="radio" name="gender_field" value="Female">Female</label>
+                    <label><input type="radio" name="gender_field" value="Prefer Not To Answer">Prefer Not To Answer</label>
                 </div>
                 <div>
                     <label>Age: <select name="age_field">
@@ -57,11 +57,14 @@
                         <label>Friday</label>
                         <input type="checkbox" name="available_field[]" value="Saturday">
                         <label>Saturday</label>
+                    </div>
                 </div>
                 <div>
                     <label>Comments & Concerns:</label>
                 </div>
-                <textarea name="comments_field" placeholder="Enter comments here:"></textarea>
+                <div>
+                    <textarea name="comments_field" placeholder="Enter comments here:"></textarea>
+                </div>
             </fieldset>
             <div>
                 <input type="hidden" name="hidden_field" value="Calvin Ton">
